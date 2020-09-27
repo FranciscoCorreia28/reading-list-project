@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import BookContextProvider from './context/BookContext';
 import BookList from './BookList';
 import '../assets/css/style.css';
+import NewBookForm from './BookForm';
 
 
 export default function () {
@@ -12,6 +13,7 @@ export default function () {
             <BookContextProvider>
                 <Navbar />
                 <BookList />
+                <NewBookForm />
             </BookContextProvider>
         </div>
     );
